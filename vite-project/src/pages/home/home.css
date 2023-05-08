@@ -1,0 +1,40 @@
+.ul {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+}
+body {
+  background-color: #fff;
+}
+.ul li {
+  padding: 10px;
+  list-style-type: none;
+  border-radius: 30px;
+}
+.left {
+  min-height: 100vh;
+  width: 20%;
+}
+main {
+  min-height: 100vh;
+  width: 60%;
+}
+.right {
+  width: 20%;
+  min-height: 100vh;
+}
+.search {
+  margin: 0 auto;
+}
+.trend {
+  width: 75%;
+  margin: 0 auto;
+  background-color: #eee;
+}
+.like {
+  margin: 20px auto;
+  background-color: #eee;
+  width: 75%;
+}
